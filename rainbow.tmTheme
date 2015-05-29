@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>colorSpaceName</key>
+    <string>sRGB</string>
+    <key>gutterSettings</key>
+    <dict>
+      <key>divider</key>
+      <string>#888888</string>
+      <key>foreground</key>
+      <string>#455A64</string>
+      <key>selectionForeground</key>
+      <string>#888888</string>
+    </dict>
+    <key>name</key>
+    <string>Deep Blue See</string>
+    <key>semanticClass</key>
+    <string>theme.dark.deep_blue_see</string>
+    <key>settings</key>
+    <array>
+      <dict>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#455A64</string>
+          <key>background</key>
+          <string>#F6F6F6</string>
+          <key>selection</key>
+          <string>#DDDDDD</string>
+          <key>lineHighlight</key>
+          <string>#DDDDDD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Comments</string>
+        <key>scope</key>
+        <string>comment, punctuation.definition.comment</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#888888</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>String</string>
+        <key>scope</key>
+        <string>string, punctuation.definition.string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#859900</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Number</string>
+        <key>scope</key>
+        <string>constant.numeric</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B58900</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Punctuation</string>
+        <key>scope</key>
+        <string>meta.delimiter, meta.brace, meta.group.braces.round.function.arguments, punctuation.terminator, punctuation.definition, punctuation.separator, comment.punctuation.comma.sass, source.sass, source.scss</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#888888</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Constant</string>
+        <key>scope</key>
+        <string>variable.other.constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#455A64</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Operator</string>
+        <key>scope</key>
+        <string>keyword.operator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E62E8A</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>storage.type, constant.language, keyword.control, variable.language.this, variable.language.self</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#DC322F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function</string>
+        <key>scope</key>
+        <string>entity.name.function, support.function, meta.function-call.with-arguments, meta.function-call.without-arguments</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4C96CA</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Property</string>
+        <key>scope</key>
+        <string>meta.property, variable.language.prototype, support.type.object.module</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4C96CA</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Class</string>
+        <key>scope</key>
+        <string>support.class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2AA198</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Doctype</string>
+        <key>scope</key>
+        <string>meta.tag.sgml.doctype</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#888888</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Tag</string>
+        <key>scope</key>
+        <string>entity.name.tag</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4C96CA</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Tag Braces</string>
+        <key>scope</key>
+        <string>punctuation.definition.tag</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5C6BC0</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Attribute</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.tag, entity.other.attribute-name.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B58900</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>HTML Character</string>
+        <key>scope</key>
+        <string>constant.character.entity</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2AA198</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Pseudo Class</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.pseudo-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4A9ED1</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Class</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.class.css, constant.class.tag</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5C6BC0</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS At-Rule</string>
+        <key>scope</key>
+        <string>keyword.control.at-keyword, keyword.control.at-rule</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B8008A</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Property Name</string>
+        <key>scope</key>
+        <string>support.type.property-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#DC322F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Property Value</string>
+        <key>scope</key>
+        <string>support.constant.property-value, constant.string, constant.numeric.css, constant.other.color.rgb-value</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2AA198</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Unit</string>
+        <key>scope</key>
+        <string>keyword.other.unit</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2AA198</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Variable</string>
+        <key>scope</key>
+        <string>variable.other.value, variable.other.root, variable.other.sass</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B58900</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Mixin Function</string>
+        <key>scope</key>
+        <string>keyword.control.mixin-shorthand, support.function.name.sass, support.function.css, entity.name.function.sass</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4C96CA</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Control</string>
+        <key>scope</key>
+        <string>keyword.control.untitled</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E6762B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Symbol</string>
+        <key>scope</key>
+        <string>entity.name.tag.css.sass.symbol</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5C6BC0</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>SQL Keyword</string>
+        <key>scope</key>
+        <string>keyword.other</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4C96CA</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>SQL Storage Modifier</string>
+        <key>scope</key>
+        <string>storage.modifier</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B58900</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>INI KEYWORD</string>
+        <key>scope</key>
+        <string>keyword.name.ini</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E6762B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>INI VALUE</string>
+        <key>scope</key>
+        <string>string.name.value.ini</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#2AA198</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>INI SECTION</string>
+        <key>scope</key>
+        <string>entity.section.ini</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#859900</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
