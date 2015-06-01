@@ -74,7 +74,7 @@ module.exports =
         name: 'Operator',
         scope: 'keyword.operator',
         settings:
-            foreground: $MAGENTA
+            foreground: $PURPLE
     ,
 
         name: 'Keyword',
@@ -84,7 +84,7 @@ module.exports =
                 variable.language.this,
                 variable.language.self',
         settings:
-            foreground: $RED
+            foreground: $PURPLE
     ,
 
         name: 'Function'
