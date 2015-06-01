@@ -119,7 +119,7 @@ module.exports =
         name: 'HTML Tag'
         scope: 'entity.name.tag'
         settings:
-            foreground: $BLUE
+            foreground: $INDIGO
     ,
 
         name: 'HTML Tag Braces'
