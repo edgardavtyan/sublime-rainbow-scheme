@@ -12,14 +12,14 @@ $yellow = '#B58900'
 $yellow_dim = '#D6AD33'
 
 $comment = $gray
-$string = $green_strong
-$number  = $green
+$string = $red
+$number  = $red
 $punctuation = $gray
 $constant = $orange
 $operator = $blue
 $keyword = $blue
-$function = $red
-$property = $red
+$function = $green
+$property = $green
 $class = $teal
 
 $html_doctype = $orange
