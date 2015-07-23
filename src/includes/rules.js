@@ -13,8 +13,8 @@ module.exports.load = function(colors) {
 	syntax.base_constant = colors.orange;
 	syntax.base_operator = colors.blue;
 	syntax.base_keyword = colors.blue;
-	syntax.base_function = colors.red;
-	syntax.base_property = colors.red;
+	syntax.base_function = colors.orange;
+	syntax.base_property = colors.orange;
 	syntax.base_class = colors.teal;
 
 	syntax.html_doctype = colors.orange;
