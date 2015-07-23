@@ -37,6 +37,7 @@ module.exports.load = function(rules) {
              'meta.group.braces.round.function.arguments,' +
              'punctuation.terminator,' +
              'punctuation.separator,' +
+             'punctuation.section.function,' +
              'comment.punctuation.comma.sass,' +
              'source.sass,' +
              'source.scss',
