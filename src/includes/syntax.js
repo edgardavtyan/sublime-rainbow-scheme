@@ -35,9 +35,10 @@ module.exports.load = function(rules) {
       scope: 'meta.delimiter,' +
              'meta.brace,' +
              'meta.group.braces.round.function.arguments,' +
+             'punctuation.definition.parameters,' +
              'punctuation.terminator,' +
              'punctuation.separator,' +
-             'punctuation.section.function,' +
+             'punctuation.section,' +
              'comment.punctuation.comma.sass,' +
              'source.sass,' +
              'source.scss',
