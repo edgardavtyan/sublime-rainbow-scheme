@@ -78,7 +78,7 @@ module.exports.load = function(rules) {
     {
       name: 'Function',
       scope: 'support.function,' +
-             'entity.name.function.java,' +
+             'entity.name.function,' +
              'meta.function-call.method.with-arguments,' +
              'meta.function-call.method.without-arguments',
       settings: {
