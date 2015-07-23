@@ -36,7 +36,6 @@ module.exports.load = function(rules) {
              'meta.brace,' +
              'meta.group.braces.round.function.arguments,' +
              'punctuation.terminator,' +
-             'punctuation.definition,' +
              'punctuation.separator,' +
              'comment.punctuation.comma.sass,' +
              'source.sass,' +
@@ -141,6 +140,13 @@ module.exports.load = function(rules) {
       }
     },
     {
+      name: 'CSS Unquoted String',
+      scope: 'variable.parameter.misc.css',
+      settings: {
+        foreground: rules.css_string
+      }
+    },
+    {
       name: 'CSS Pseudo Class',
       scope: 'entity.other.attribute-name.pseudo-class',
       settings: {
@@ -182,7 +188,8 @@ module.exports.load = function(rules) {
       scope: 'support.constant.property-value,' +
              'constant.string,' +
              'constant.numeric.css,' +
-             'constant.other.color.rgb-value',
+             'constant.other.color.rgb-value,' +
+             'meta.property-value',
       settings: {
         foreground: rules.css_value
       }
@@ -213,6 +220,6 @@ module.exports.load = function(rules) {
       settings: {
         foreground: rules.css_mixin
       }
-    }
+    },
   ];
 };

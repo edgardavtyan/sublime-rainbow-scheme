@@ -22,6 +22,7 @@ module.exports.load = function(colors) {
 	syntax.html_attr = colors.orange;
 	syntax.html_char = colors.yellow;
 
+	syntax.css_string = syntax.base_string;
 	syntax.css_class = syntax.html_tag;
 	syntax.css_tag = syntax.html_tag;
 	syntax.css_pseudo = syntax.html_tag;
