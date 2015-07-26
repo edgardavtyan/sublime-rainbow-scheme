@@ -33,6 +33,7 @@ module.exports.load = function(colors) {
 	syntax.css_unit = syntax.css_value;
 	syntax.css_variable = colors.teal;
 	syntax.css_mixin = colors.yellow_dim;
+	syntax.css_media_constant = syntax.css_value
 
 	return syntax;
 };

@@ -179,6 +179,13 @@ module.exports.load = function(rules) {
       }
     },
     {
+      name: 'CSS Media Constant',
+      scope: 'support.constant.media',
+      settings: {
+        foreground: rules.css_media_constant
+      }
+    },
+    {
       name: 'CSS Property Name',
       scope: 'support.type.property-name',
       settings: {
