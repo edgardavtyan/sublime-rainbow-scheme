@@ -28,10 +28,11 @@ module.exports.load = function(colors) {
 	syntax.css_pseudo = syntax.html_tag;
 	syntax.css_atRule = colors.yellow;
 	syntax.css_property = colors.purple;
+	syntax.css_meta_property = syntax.css_property;
 	syntax.css_value = colors.orange;
 	syntax.css_unit = syntax.css_value;
 	syntax.css_variable = colors.teal;
 	syntax.css_mixin = colors.yellow_dim;
-	
+
 	return syntax;
 };

@@ -186,6 +186,13 @@ module.exports.load = function(rules) {
       }
     },
     {
+      name: 'CSS Meta Property Name',
+      scope: 'meta.property-name',
+      settings: {
+        foreground: rules.css_meta_property
+      }
+    },
+    {
       name: 'CSS Property Value',
       scope: 'support.constant.property-value,' +
              'constant.string,' +
