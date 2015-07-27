@@ -2,6 +2,7 @@ module.exports = {
 	fore: '#444444',
 	back: '#F6F6F6',
 	back_highlight: '#DDDDDD',
+	selection: '#CCCCCC',
 	blue: '#0066FF',
 	gray: '#888888',
 	green: '#669900',

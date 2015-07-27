@@ -3,7 +3,7 @@ module.exports.load = function(colors) {
 	syntax.editor_caret = colors.yellow;
 	syntax.editor_foreground = colors.fore;
 	syntax.editor_background = colors.back;
-	syntax.editor_selection =  colors.back_highlight;
+	syntax.editor_selection =  colors.selection;
 	syntax.editor_lineHighlight = colors.back_highlight;
 
 	syntax.base_comment = colors.gray;
