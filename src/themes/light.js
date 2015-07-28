@@ -1,6 +1,6 @@
 module.exports = {
 	fore: '#444444',
-	back: '#F6F6F6',
+	back: '#EFF1F5',
 	back_highlight: '#DDDDDD',
 	selection: '#B2D1FF',
 	blue: '#0066FF',
