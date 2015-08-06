@@ -36,5 +36,8 @@ module.exports.load = function(colors) {
 	syntax.css_mixin    = colors.yellow_alt;
 	syntax.css_media_constant = syntax.css_value
 
+	syntax.md_italic = syntax.editor_foreground;
+	syntax.md_bold = syntax.editor_foreground;
+
 	return syntax;
 };

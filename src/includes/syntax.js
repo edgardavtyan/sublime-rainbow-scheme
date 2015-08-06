@@ -237,5 +237,21 @@ module.exports.load = function(rules) {
 				foreground: rules.css_mixin
 			}
 		},
+		{
+			name: 'Markdown Italic',
+			scope: 'markup.italic.markdown',
+			settings: {
+				foreground: rules.md_italic,
+				fontStyle: 'italic'
+			}
+		},
+		{
+			name: 'Markdown Italic',
+			scope: 'markup.bold.markdown',
+			settings: {
+				foreground: rules.md_italic,
+				fontStyle: 'bold'
+			}
+		},
 	];
 };
