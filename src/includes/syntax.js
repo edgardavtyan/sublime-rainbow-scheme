@@ -9,6 +9,10 @@ module.exports.load = function(rules) {
 				lineHighlight: rules.editor_lineHighlight
 			}
 		},
+
+		/******************
+		 ****** Base ******
+		 ******************/
 		{
 			name: 'Comments',
 			scope: 'comment, punctuation.definition.comment',
@@ -106,6 +110,10 @@ module.exports.load = function(rules) {
 				foreground: rules.base_class
 			}
 		},
+
+		/******************
+		 ****** HTML ******
+		 ******************/
 		{
 			name: 'HTML Doctype',
 			scope: 'meta.tag.sgml.doctype',
@@ -141,6 +149,10 @@ module.exports.load = function(rules) {
 				foreground: rules.html_char
 			}
 		},
+
+		/*****************
+		 ****** CSS ******
+		 *****************/
 		{
 			name: 'CSS Unquoted String',
 			scope: 'variable.parameter.misc.css',
@@ -237,6 +249,10 @@ module.exports.load = function(rules) {
 				foreground: rules.css_mixin
 			}
 		},
+
+		/**********************
+		 ****** Markdown ******
+		 **********************/
 		{
 			name: 'Markdown Italic',
 			scope: 'markup.italic.markdown',
