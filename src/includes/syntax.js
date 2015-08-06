@@ -269,5 +269,33 @@ module.exports.load = function(rules) {
 				fontStyle: 'bold'
 			}
 		},
+
+		/******************
+		 ****** Diff ******
+		 ******************/
+		{
+			name: 'Diff Inserted',
+			scope: 'markup.inserted',
+			settings: {
+				foreground: rules.diff_inserted,
+				fontStyle: 'italic'
+			}
+		},
+		{
+			name: 'Diff Changed',
+			scope: 'markup.changed',
+			settings: {
+				foreground: rules.diff_changed,
+				fontStyle: 'italic'
+			}
+		},
+		{
+			name: 'Diff Deleted',
+			scope: 'markup.deleted',
+			settings: {
+				foreground: rules.diff_deleted,
+				fontStyle: 'italic'
+			}
+		},
 	];
 };

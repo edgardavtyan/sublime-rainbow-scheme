@@ -40,5 +40,9 @@ module.exports.load = function(colors) {
 	syntax.md_italic = syntax.editor_foreground;
 	syntax.md_bold = syntax.editor_foreground;
 
+	syntax.diff_inserted = colors.green;
+	syntax.diff_changed = colors.yellow;
+	syntax.diff_deleted = colors.red;
+
 	return syntax;
 };
