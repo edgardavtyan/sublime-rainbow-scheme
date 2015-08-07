@@ -9,6 +9,7 @@ module.exports.load = function(colors) {
 
 	syntax.base_comment  = colors.gray;
 	syntax.base_string   = colors.green;
+	syntax.base_key      = colors.green_alt || colors.green;
 	syntax.base_number   = colors.green;
 	syntax.base_punctuation = colors.gray;
 	syntax.base_constant = colors.red;

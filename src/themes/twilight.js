@@ -13,5 +13,6 @@ module.exports = {
 	teal:   '#91C9BA',
 	yellow: '#CDA869',
 
+	green_alt:  '#6A8519',
 	yellow_alt: '#E4DD96',
 }

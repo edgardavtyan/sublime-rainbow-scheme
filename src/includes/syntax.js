@@ -22,9 +22,16 @@ module.exports.load = function(rules) {
 		},
 		{
 			name: 'String',
-			scope: 'string, punctuation.definition.string',
+			scope: 'string.quoted, punctuation.definition.string',
 			settings: {
 				foreground: rules.base_string
+			}
+		},
+		{
+			name: 'Object key',
+			scope: 'constant.other.object.key',
+			settings: {
+				foreground: rules.base_key
 			}
 		},
 		{
