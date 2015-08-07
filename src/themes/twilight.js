@@ -5,7 +5,7 @@ module.exports = {
 	selection:    '#333333',
 
 	blue:   '#7587A6',
-	gray:   '#5E5A60',
+	gray:   '#777777',
 	green:  '#8F9D6A',
 	orange: '#C16F57',
 	purple: '#9B859D',
