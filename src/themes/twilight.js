@@ -7,7 +7,7 @@ module.exports = {
 	blue:   '#7587A6',
 	gray:   '#5E5A60',
 	green:  '#8F9D6A',
-	orange: '#CF6A4C',
+	orange: '#C16F57',
 	purple: '#9B859D',
 	red:    '#CF6A4D',
 	teal:   '#91C9BA',
