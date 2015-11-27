@@ -13,7 +13,7 @@ module.exports.load = function(colors) {
 	syntax.base_number   = colors.green;
 	syntax.base_punctuation = colors.gray;
 	syntax.base_constant = colors.red;
-	syntax.base_operator = colors.blue;
+	syntax.base_operator = colors.purple;
 	syntax.base_keyword  = colors.blue;
 	syntax.base_function = colors.orange;
 	syntax.base_property = colors.orange;
@@ -44,6 +44,8 @@ module.exports.load = function(colors) {
 	syntax.diff_inserted = colors.green;
 	syntax.diff_changed = colors.yellow;
 	syntax.diff_deleted = colors.red;
+
+	syntax.jade_class = colors.teal;
 
 	return syntax;
 };

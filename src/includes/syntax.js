@@ -304,5 +304,16 @@ module.exports.load = function(rules) {
 				fontStyle: 'italic'
 			}
 		},
+
+		/******************
+		 ****** Jade ******
+		 ******************/
+		{
+			name: 'Jade class',
+			scope: 'constant.class.jade',
+			settings: {
+				foreground: rules.jade_class,
+			}
+		} ,
 	];
 };
