@@ -22,7 +22,10 @@ module.exports.load = function(rules) {
 		},
 		{
 			name: 'String',
-			scope: 'string.quoted, punctuation.definition.string',
+			scope: 'string.quoted, ' +
+					'string.interpolated, ' + 
+					'punctuation.definition.string, ' +
+					'keyword.other.template',
 			settings: {
 				foreground: rules.base_string
 			}
