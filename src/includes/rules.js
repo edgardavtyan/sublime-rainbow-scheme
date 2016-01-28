@@ -1,3 +1,5 @@
+var tinycolor = require('tinycolor2');
+
 module.exports.load = function(colors) {
 	var syntax  = {};
 
@@ -9,21 +11,26 @@ module.exports.load = function(colors) {
 
 	syntax.base_comment  = colors.gray;
 	syntax.base_string   = colors.green;
-	syntax.base_key      = colors.green_alt || colors.green;
+	syntax.base_key      = colors.foreground;
 	syntax.base_number   = colors.green;
 	syntax.base_punctuation = colors.gray;
-	syntax.base_constant = colors.red;
-	syntax.base_operator = colors.purple;
+	syntax.base_constant = colors.teal;
+	syntax.base_operator = colors.blue;
 	syntax.base_keyword  = colors.blue;
-	syntax.base_function = colors.orange;
-	syntax.base_property = colors.orange;
-	syntax.base_class    = colors.teal;
+	syntax.base_function = colors.foreground;
+	syntax.base_property = colors.foreground;
+	syntax.base_class    = colors.purple;
 
 	syntax.html_doctype  = colors.orange;
 	syntax.html_template = colors.yellow;
 	syntax.html_tag  = colors.blue;
 	syntax.html_attr = colors.orange;
 	syntax.html_char = colors.yellow;
+
+	syntax.jsx_tag  = colors.yellow;
+	syntax.jsx_attr = colors.orange;
+	syntax.jsx_char = colors.yellow;
+	syntax.jsx_keyword = colors.orange;
 
 	syntax.css_class    = syntax.html_tag;
 	syntax.css_tag      = syntax.html_tag;

@@ -63,7 +63,8 @@ module.exports.load = function(rules) {
 		{
 			name: 'Constant',
 			scope: 'variable.other.constant,' +
-			       'constant.other.java',
+			       'constant.other.java,' +
+			       'constant.language',
 			settings: {
 				foreground: rules.base_constant
 			}
@@ -80,7 +81,7 @@ module.exports.load = function(rules) {
 			scope: 'storage.modifier,' +
 			       'storage.type.js,' +
 			       'storage.type.function.js,' +
-			       'constant.language,' +
+			       'storage.type.function.arrow.js,' +
 			       'keyword.control,' +
 			       'keyword.other,' +
 			       'variable.language.this,' +
@@ -157,6 +158,45 @@ module.exports.load = function(rules) {
 			scope: 'constant.character.entity',
 			settings: {
 				foreground: rules.html_char
+			}
+		},
+
+		/**********************/
+		/****** JSX HTML ******/
+		/**********************/
+		{
+			name: 'JSX HTML Tag',
+			scope: 'entity.name.tag.jsx',
+			settings: {
+				foreground: rules.jsx_tag
+			}
+		},
+		{
+			name: 'JSX HTML Tag Braces',
+			scope: 'punctuation.definition.tag',
+			settings: {
+				foreground: rules.jsx_tag
+			}
+		},
+		{
+			name: 'JSX HTML Attribute',
+			scope: 'entity.other.attribute-name.jsx',
+			settings: {
+				foreground: rules.jsx_attr
+			}
+		},
+		{
+			name: 'JSX HTML Character',
+			scope: 'constant.character.entity.jsx',
+			settings: {
+				foreground: rules.jsx_char
+			}
+		},
+		{
+			name: 'JSX HTML Keyword',
+			scope: 'keyword.operator.assignment.jsx',
+			settings: {
+				foreground: rules.jsx_keyword
 			}
 		},
 
@@ -317,6 +357,6 @@ module.exports.load = function(rules) {
 			settings: {
 				foreground: rules.jade_class,
 			}
-		} ,
+		},
 	];
 };
