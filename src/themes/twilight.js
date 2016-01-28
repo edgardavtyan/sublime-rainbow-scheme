@@ -1,5 +1,5 @@
 module.exports = {
-	foreground:   '#BBBBBB',
+	foreground:   '#AAAAAA',
 	background:   '#141414',
 	current_line: '#333333',
 	selection:    '#333333',
