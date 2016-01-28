@@ -1,4 +1,4 @@
-var plistCompiler = require('./src/plistCompiler');
+var plistCompiler = require('./plistCompiler');
 
 plistCompiler('dark');
 plistCompiler('light');

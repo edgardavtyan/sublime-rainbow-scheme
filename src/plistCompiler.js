@@ -12,5 +12,6 @@ module.exports = function compileJsToPlist(theme) {
 	var plistJs = templateLoader.load(syntax);
 	var plistStr = plist.build(plistJs);
 
-	fs.writeFileSync(theme + '.tmTheme', plistStr);
+	if (!fs.existsSync('dist')) fs.mkdirSync('dist');
+	fs.writeFileSync('./dist/' + theme + '.tmTheme', plistStr);
 };
