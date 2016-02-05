@@ -173,7 +173,8 @@ module.exports.load = function(rules) {
 		},
 		{
 			name: 'JSX HTML Tag Braces',
-			scope: 'punctuation.definition.tag',
+			scope: 'punctuation.definition.tag.begin.jsx,' +
+			       'punctuation.definition.tag.end.jsx',
 			settings: {
 				foreground: rules.jsx_tag
 			}
