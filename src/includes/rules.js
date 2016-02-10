@@ -27,7 +27,7 @@ module.exports.load = function(colors) {
 	syntax.html_attr = colors.orange;
 	syntax.html_char = colors.yellow;
 
-	syntax.jsx_tag  = colors.yellow;
+	syntax.jsx_tag  = colors.red;
 	syntax.jsx_attr = colors.orange;
 	syntax.jsx_char = colors.yellow;
 	syntax.jsx_keyword = colors.orange;
