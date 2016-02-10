@@ -10,7 +10,7 @@ module.exports = {
 	orange: '#C16F57',
 	purple: '#9B859D',
 	red:    '#CF6A4D',
-	teal:   '#91C9BA',
+	teal:   '#54AB93',
 	yellow: '#CDA869',
 
 	green_alt:  '#6A8519',
