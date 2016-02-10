@@ -116,7 +116,8 @@ module.exports.load = function(rules) {
 			       'storage.modifier.package,' +
 			       'storage.type,' +
 			       'entity.name.type.class,' +
-			       'entity.other.inherited-class',
+			       'entity.other.inherited-class,' +
+			       'variable.other.class',
 			settings: {
 				foreground: rules.base_class
 			}
