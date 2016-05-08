@@ -4,7 +4,7 @@ module.exports = {
 	current_line: '#d9d9d9',
 	selection:    '#B2D1FF',
 
-	blue:   '#0033cc',
+	blue:   '#3675C2',
 	gray:   '#777777',
 	green:  '#477519',
 	orange: '#C16325',
