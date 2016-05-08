@@ -360,5 +360,37 @@ module.exports.load = function(rules) {
 				foreground: rules.jade_class,
 			}
 		},
+
+		/*
+		 * TeX, LaTeX
+		 */
+		{
+			name: 'LaTeX punctuation',
+			scope: 'text.tex punctuation.definition',
+			settings: {
+				foreground: rules.tex_punctuation,
+			},
+		},
+		{
+			name: 'LaTeX function',
+			scope: 'text.tex support.function',
+			settings: {
+				foreground: rules.tex_function,
+			},
+		},
+		{
+			name: 'LaTeX function',
+			scope: 'text.tex variable.parameter',
+			settings: {
+				foreground: rules.tex_parameter,
+			},
+		},
+		{
+			name: 'LaTeX italic text',
+			scope: 'text.tex markup.italic',
+			settings: {
+				fontStyle: 'italic',
+			},
+		},
 	];
 };
