@@ -1,7 +1,7 @@
 module.exports = {
 	foreground:   '#444444',
-	background:   '#e6e6e6',
-	current_line: '#d9d9d9',
+	background:   '#FDF6E3',
+	current_line: '#F3ECD9',
 	selection:    '#B2D1FF',
 
 	blue:   '#3675C2',
