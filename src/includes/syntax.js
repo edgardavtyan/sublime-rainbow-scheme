@@ -392,5 +392,12 @@ module.exports.load = function(rules) {
 				fontStyle: 'italic',
 			},
 		},
+		{
+			name: 'LaTeX section',
+			scope: 'text.tex entity.name.section',
+			settings: {
+				fontStyle: 'bold',
+			},
+		},
 	];
 };
