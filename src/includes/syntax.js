@@ -375,7 +375,7 @@ module.exports.load = function(rules) {
 			name: 'LaTeX function',
 			scope: 'text.tex support.function,' +
 			       'text.tex meta.function punctuation.definition,' +
-			       'text.tex meta.function punctuation.section',
+			       'text.tex punctuation.section',
 			settings: {
 				foreground: rules.tex_function,
 			},
