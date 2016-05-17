@@ -54,9 +54,10 @@ module.exports.load = function(colors) {
 
 	syntax.jade_class = colors.teal;
 
-	syntax.tex_punctuation = colors.blue;
 	syntax.tex_function = colors.blue;
+	syntax.tex_function_punctuation = colors.blue;
 	syntax.tex_parameter = colors.orange;
+	syntax.tex_label = colors.pink;
 
 	return syntax;
 };

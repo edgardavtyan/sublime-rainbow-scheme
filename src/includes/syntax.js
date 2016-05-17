@@ -365,15 +365,17 @@ module.exports.load = function(rules) {
 		 * TeX, LaTeX
 		 */
 		{
-			name: 'LaTeX punctuation',
-			scope: 'text.tex punctuation.definition',
+			name: 'LaTeX function punctuation',
+			scope: 'text.tex punctuation.definition.function',
 			settings: {
-				foreground: rules.tex_punctuation,
+				foreground: rules.tex_function_punctuation,
 			},
 		},
 		{
 			name: 'LaTeX function',
-			scope: 'text.tex support.function',
+			scope: 'text.tex support.function,' +
+			       'text.tex meta.function punctuation.definition,' +
+			       'text.tex meta.function punctuation.section',
 			settings: {
 				foreground: rules.tex_function,
 			},
@@ -397,6 +399,14 @@ module.exports.load = function(rules) {
 			scope: 'text.tex entity.name.section',
 			settings: {
 				fontStyle: 'bold',
+			},
+		},
+		{
+			name: 'LaTeX label',
+			scope: 'text.tex keyword.control.label,' +
+			       'text.tex meta.definition.label',
+			settings: {
+				foreground: rules.tex_label,
 			},
 		},
 	];
