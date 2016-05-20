@@ -382,7 +382,8 @@ module.exports.load = function(rules) {
 		},
 		{
 			name: 'LaTeX function',
-			scope: 'text.tex variable.parameter',
+			scope: 'text.tex variable.parameter,' +
+			       'text.tex constant.other.reference',
 			settings: {
 				foreground: rules.tex_parameter,
 			},
