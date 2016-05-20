@@ -366,7 +366,8 @@ module.exports.load = function(rules) {
 		 */
 		{
 			name: 'LaTeX function punctuation',
-			scope: 'text.tex punctuation.definition.function',
+			scope: 'text.tex meta.function punctuation.definition,' +
+			       'text.tex punctuation.definition.brackets',
 			settings: {
 				foreground: rules.tex_function_punctuation,
 			},
@@ -374,7 +375,6 @@ module.exports.load = function(rules) {
 		{
 			name: 'LaTeX function',
 			scope: 'text.tex support.function,' +
-			       'text.tex meta.function punctuation.definition,' +
 			       'text.tex punctuation.section',
 			settings: {
 				foreground: rules.tex_function,
@@ -402,9 +402,14 @@ module.exports.load = function(rules) {
 			},
 		},
 		{
-			name: 'LaTeX label',
-			scope: 'text.tex keyword.control.label,' +
-			       'text.tex meta.definition.label',
+			name: 'LaTeX keyword',
+			scope: 'text.tex keyword.control,' +
+			       'text.tex keyword.control punctuation,' +
+			       'text.tex meta.definition.label,' +
+			       'text.tex meta.definition.label punctuation.definition,' +
+			       'text.tex meta.definition.label punctuation.definition.arguments.begin,' +
+			       'text.tex meta.definition.label punctuation.definition.arguments.end,' +
+			       'text.tex meta.reference.label punctuation',
 			settings: {
 				foreground: rules.tex_label,
 			},
