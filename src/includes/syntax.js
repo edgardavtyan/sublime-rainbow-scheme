@@ -410,7 +410,10 @@ module.exports.load = function(rules) {
 			       'text.tex meta.definition.label punctuation.definition,' +
 			       'text.tex meta.definition.label punctuation.definition.arguments.begin,' +
 			       'text.tex meta.definition.label punctuation.definition.arguments.end,' +
-			       'text.tex meta.reference.label punctuation',
+			       'text.tex meta.reference.label punctuation,' +
+			       'text.tex meta.reference.label punctuation.definition.arguments.begin,' +
+			       'text.tex meta.reference.label punctuation.definition.arguments.end,' +
+			       'text.tex meta.reference.label punctuation.definition.keyword',
 			settings: {
 				foreground: rules.tex_label,
 			},
