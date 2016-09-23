@@ -401,6 +401,8 @@ module.exports.load = function(rules) {
 			name: 'LaTeX function punctuation',
 			scope: 'text.tex meta.function punctuation.definition'
 			   + ', text.tex punctuation.definition.brackets'
+			   + ', text.tex punctuation.definition.group.brace'
+			   + ', text.tex punctuation.definition.group.bracket'
 			   ,
 			settings: {
 				foreground: rules.tex_function_punctuation,
@@ -452,6 +454,8 @@ module.exports.load = function(rules) {
 			   + ', text.tex meta.reference.label punctuation.definition.arguments.begin'
 			   + ', text.tex meta.reference.label punctuation.definition.arguments.end'
 			   + ', text.tex meta.reference.label punctuation.definition.keyword'
+			   + ', text.tex meta.function.input punctuation.definition.backslash'
+			   + ', text.tex meta.function.include punctuation.definition.backslash'
 			   ,
 			settings: {
 				foreground: rules.tex_label,

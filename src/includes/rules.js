@@ -57,7 +57,7 @@ module.exports.load = function(colors) {
 	syntax.tex_function = colors.blue;
 	syntax.tex_function_punctuation = colors.blue;
 	syntax.tex_parameter = colors.orange;
-	syntax.tex_label = colors.pink;
+	syntax.tex_label = colors.blue;
 
 	return syntax;
 };
