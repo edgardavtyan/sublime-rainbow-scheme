@@ -86,6 +86,7 @@ module.exports.load = function(rules) {
 			name: 'Keyword',
 			scope: 'storage.modifier'
 			   + ', storage.type.js'
+			   + ', storage.type.class.js'
 			   + ', storage.type.function.js'
 			   + ', storage.type.function.arrow.js'
 			   + ', keyword.control'
